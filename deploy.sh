@@ -9,6 +9,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:<pradnyabhukan>/<WWC-frontend-friday-task2>.git main:gh-pages
+git push -f git@github.com:pradnyabhukan/newsletter-component.git main:gh-pages
 
 cd -

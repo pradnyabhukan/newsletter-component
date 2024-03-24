@@ -1,5 +1,5 @@
-const { defineConfig } = require('@vue/cli-service')
-
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/WWC-frontend-friday-task2/" : "/",
-};
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/newsletter-component/'
+    : '/'
+}
